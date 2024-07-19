@@ -2,7 +2,7 @@
     --primary-color: #2C3E50;
     --secondary-color: #E74C3C;
     --bg-color: #ECF0F1;
-    --text-color: #2C3E50;
+    --text-color: #34495E;
     --light-text-color: #7F8C8D;
     --accent-color: #3498DB;
 }
@@ -23,12 +23,12 @@
 }
 
 body {
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
     transition: background-color 0.3s ease, color 0.3s ease;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .container {
@@ -56,7 +56,7 @@ nav {
 
 .logo {
     font-size: 1.8rem;
-    font-weight: 900;
+    font-weight: 700;
     color: var(--bg-color);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -96,7 +96,6 @@ section {
 
 h1, h2, h3 {
     margin-bottom: 1rem;
-    font-weight: 900;
 }
 
 h1 {
@@ -140,6 +139,7 @@ table {
     border-collapse: collapse;
     margin-bottom: 2rem;
     background-color: var(--bg-color);
+    border: 1px solid var(--accent-color);
 }
 
 th, td {
@@ -151,21 +151,21 @@ th, td {
 th {
     background-color: var(--primary-color);
     color: var(--bg-color);
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .project {
     display: flex;
     background-color: var(--bg-color);
+    border: 1px solid var(--accent-color);
     margin-bottom: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .project:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .project-info {
@@ -192,7 +192,7 @@ th {
 .contact-info {
     background-color: var(--bg-color);
     padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--accent-color);
 }
 
 .contact-info div {
