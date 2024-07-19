@@ -41,7 +41,7 @@ const projects = [
         description: "Capture Gulzar's essence with the Random Poetry Generator",
         gif: "6.gif"
     },
- {
+    {
         title: "COVID-19 Dashboard (Tableau)",
         link: "https://github.com/anuragpras/covid19-tableau",
         description: "Interactive Tableau dashboard tracking COVID-19 statistics",
